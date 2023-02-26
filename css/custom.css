@@ -1,0 +1,186 @@
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+/* ハンバーガーメニューの枠線と影を透明にする */
+.navbar-dark .navbar-toggler{
+    color: rgba(255,255,255, 0);
+    border-color: rgba(212, 108, 228, 0);
+}
+
+/* メインビジュアル */
+.wrap-video{
+    position:relative;
+    height: 100%;
+}
+  
+.wrap-video video{
+    width: 100%;
+    height: 100%;
+}
+
+.logo-gcc-img {
+    position: absolute;
+    top: 3%;
+    left: 3%;
+    z-index: 100;
+}
+
+.main-visual-scroll-text{
+    position: absolute;
+    top: 3%;
+    left: 3%;
+    z-index: 100;
+}
+
+.bg-white{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+}
+.main-visual-scroll-text{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    z-index: 100;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); /*上下左右中央寄せ*/
+}
+
+.headline {
+    font-size:70px;
+    font-weight:bold;
+    color:white;
+}
+
+.main-visual-scroll-img{
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    z-index: 100;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); /*上下左右中央寄せ*/
+}
+  
+.wrap-video .text{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); /*上下左右中央寄せ*/
+    text-align:center;
+}
+  
+.wrap-video .text p{
+    font-size:60px;
+    font-weight:bold;
+    color:white;
+}
+
+.wrap-video .text .headline{
+    font-size:20px;
+}
+
+/* ヘッダーの固定位置指定による要素隠れ対策 */
+#menu {
+    margin-top: -102px;
+    padding-top: 102px;
+}
+
+#location {
+    margin-top: -102px;
+    padding-top: 102px;
+}
+
+#contact {
+    margin-top: -102px;
+    padding-top: 102px;
+}
+
+.map-container{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    margin-bottom: 20px;
+    position:relative;
+    height:0;
+}
+
+.map-container iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+  }
+
+/* メイン */
+main {
+    position: relative;
+}
+
+.main-content {
+    position: relative;
+}
+
+.bg-line{
+    position: absolute;
+    top: -10%;
+    left: 20%;
+    z-index: -100;
+}
+
+.day4-img {
+    position: relative;
+}
+
+.day4-img2{
+    position: absolute;
+    top: 60%;
+    left: 5%;
+}
+
+.day7-img{
+    position: relative;
+}
+
+.day7-img3{
+    position: absolute;
+    top: 60%;
+    left: 35%;
+}
+
+.day7-img4{
+    position: absolute;
+    top: 73%;
+    left: 55%;
+}
+
+.day11-img{
+    position: relative;
+}
+
+.day11-img1{
+    position: absolute;
+    top: 10%;
+    left: 80%;
+}
+
+.cta-button{
+    position: relative;
+}
+
+.guide1{
+    position: absolute;
+    width: 200px;
+    z-index: 100px;
+    top: -5%;
+    left: 65%;
+}
+
+.guide2{
+    position: absolute;
+    width: 300px;
+    top: -5%;
+    left: 68%;
+}
